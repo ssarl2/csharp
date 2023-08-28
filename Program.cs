@@ -1,15 +1,13 @@
-﻿namespace HelloWorld
+﻿class Example
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("What is your name?");
-            var name = Console.ReadLine();
-            var currentDate = DateTime.Now;
-            Console.WriteLine($"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!");
-            Console.WriteLine($"{Environment.NewLine}Press any key to exit...");
-            Console.WriteLine(true);
-        }
+        var s = new Acme.Collections.Stack<int>();
+        s.Push(1); // stack contains 1
+        s.Push(10); // stack contains 1, 10
+        s.Push(100); // stack contains 1, 10, 100
+        Console.WriteLine(s.Pop()); // stack contains 1, 10
+        Console.WriteLine(s.Pop()); // stack contains 1
+        Console.WriteLine(s.Pop()); // stack is empty
     }
 }
