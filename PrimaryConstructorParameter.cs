@@ -1,12 +1,16 @@
-public class Point
-{
-    public int X { get; }
-    public int Y { get; }
+/*
+ * Disabled to use struct point
+ */
+// public class Point
+// {
+//     public int X { get; }
+//     public int Y { get; }
 
-    public Point(int x, int y) => (X, Y) = (x, y);
-}
+//     public Point(int x, int y) => (X, Y) = (x, y);
+// }
 
-/* This is called
+/* 
+ * This is called
  * primary constructor parameter
  * that is introduced in C# 12
  * It will not be worked unless you have installed C# 12
