@@ -1,3 +1,4 @@
+using System.Reflection;
 interface Icontrol
 {
     void Paint();
@@ -14,3 +15,14 @@ interface IListBox : Icontrol
 }
 
 interface IComboBox : ITextBox, IListBox { }
+
+interface IDataBound
+{
+    void Bind(Binder b);
+}
+
+public class EditBox : Icontrol, IDataBound
+{
+    public void Paint() { }
+    public void Bind(Binder b) { }
+}
