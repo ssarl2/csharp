@@ -1,16 +1,36 @@
 ﻿class Example
 {
+    private static bool IsNull<T>(T? v)
+    {
+        if (v == null)
+            return true;
+        return false;
+    }
+
     public static void Main()
     {
-        var turnip = SomeRootVegetable.Turnip;
+        int? optionalInt = default;
+        string? optionalText = default;
 
-        var spring = Seasons.Spring;
-        var startingOnEquinox = Seasons.Spring | Seasons.Autumn;
-        var theYear = Seasons.All;
+        if (IsNull(optionalInt))
+        {
+            Console.WriteLine($"(optionalInt is null)");
+        }
+        if (IsNull(optionalText))
+        {
+            Console.WriteLine($"(optionalText is null)");
+        }
 
-        Console.WriteLine($"(turnip : {turnip})");
-        Console.WriteLine($"(spring : {spring})");
-        Console.WriteLine($"(startingOnEquinox : {startingOnEquinox})");
-        Console.WriteLine($"(theYear : {theYear})");
+        optionalInt = 5;
+        optionalText = "Hello World.";
+
+        if (!IsNull(optionalText))
+        {
+            Console.WriteLine($"(optionalInt : {optionalInt})");
+        }
+        if (!IsNull(optionalText))
+        {
+            Console.WriteLine($"(optionalText : {optionalText})");
+        }
     }
 }

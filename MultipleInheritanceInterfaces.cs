@@ -19,7 +19,7 @@ interface IComboBox : ITextBox, IListBox { }
 interface IDataBound
 {
     void Bind(Binder b);
-}
+} 
 
 public class EditBox : Icontrol, IDataBound
 {
