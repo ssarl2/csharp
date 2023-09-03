@@ -1,5 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
-
 class Entity
 {
     static int s_nextSerialNo;
