@@ -28,4 +28,14 @@ class Parameters
         Divide(10, 3, out quo, out int rem);
         Console.WriteLine($"{quo} {rem}");
     }
+
+    // Examples of A parameter array
+    public static void MyWrite(string fmt, params object[] args)
+    {
+        Console.Write(fmt, args);
+    }
+    public static void MyWriteLine(string fmt, params object[] args)
+    {
+        Console.WriteLine(fmt, args);
+    }
 }
