@@ -15,4 +15,17 @@ class Parameters
         Swap(ref i, ref j);
         Console.WriteLine($"{i} {j}");
     }
+
+    static void Divide(int x, int y, out int quotient, out int remainder)
+    {
+        quotient = x / y;
+        remainder = x % y;
+    }
+
+    public static void OutUsage()
+    {
+        int quo;
+        Divide(10, 3, out quo, out int rem);
+        Console.WriteLine($"{quo} {rem}");
+    }
 }
