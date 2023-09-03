@@ -2,13 +2,11 @@
 {
     public static void Main()
     {
-        Parameters.SwapExample();
-        Parameters.OutUsage();
-
-        int x, y, z;
-        x = 3;
-        y = 4;
-        z = 5;
-        Parameters.MyWriteLine("x={0} y={1} z={2}", x, y, z);
+        Entity.SetNextSerialNo(1000);
+        Entity e1 = new();
+        Entity e2 = new();
+        Console.WriteLine(e1.GetSerialNo());
+        Console.WriteLine(e2.GetSerialNo());
+        Console.WriteLine(Entity.GetNExtSerialNo());
     }
 }
