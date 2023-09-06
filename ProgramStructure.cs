@@ -1,8 +1,6 @@
-namespace Acme.Collections;
-
 public class Stack<T>
 {
-    Entry _top;
+    Entry? _top;
 
     public void Push(T data)
     {
@@ -23,10 +21,10 @@ public class Stack<T>
 
     class Entry
     {
-        public Entry Next { get; set; }
+        public Entry? Next { get; set; }
         public T Data { get; set; }
 
-        public Entry(Entry next, T data)
+        public Entry(Entry? next, T data)
         {
             Next = next;
             Data = data;
