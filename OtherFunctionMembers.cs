@@ -42,6 +42,7 @@ public class MyList<T>
 
     public void Add(T item)
     {
+        Console.WriteLine($"{Count}, {Capacity}");
         if (_count == Capacity) Capacity = _count * 2;
         _items[_count] = item;
         _count++;

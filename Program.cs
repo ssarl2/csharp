@@ -3,9 +3,32 @@
     public static void Main()
     {
         MyList<string> names = new();
-        names.Capacity = 100;   // Invokes set accessor
-        int i = names.Count;    // Invokes get accessor
-        int j = names.Capacity; // Invokes get accessor
-        Console.WriteLine($"i={i}, j={j}");
+        names.Add("Liz");
+        names.Add("Martha");
+        names.Add("Beth");
+        for (int i = 0; i < names.Count; i++)
+        {
+            string s = names[i];
+            names[i] = s.ToUpper();
+        }
+
+        Console.WriteLine($"{names.Capacity}");
+
+        for (int i = 0; i < names.Count; i++)
+        {
+            Console.WriteLine($"{names[i]}");
+        }
+        names.Add("Abby");
+        names.Add("Boby");
+        names.Add("Cebby");
+        names.Add("Naby");
+        names.Add("Roby");
+        Console.WriteLine($"{names.Capacity}");
+
+
+        for (int i = 0; i < names.Count; i++)
+        {
+            Console.WriteLine($"{names[i]}");
+        }
     }
 }
