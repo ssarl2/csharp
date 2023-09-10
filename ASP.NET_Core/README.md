@@ -3,7 +3,8 @@ https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=a
 
 ## Start
 - [Tuotorial: Get started with ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-7.0&tabs=linux)
-- 
+  - dotnet new webapp -o aspnetcoreapp
+  - dotnet watch run
 
 ## [Recommendation](https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-7.0#recommended-learning-path)
 
