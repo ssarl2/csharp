@@ -1,7 +1,7 @@
 # Landing C#!
 ## On going
-https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks
-- Events
+- [x] [C# program building blocks](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks)
+- [ ] [C# major language areas](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features)
 ## Testing environment
 - Ubuntu 22.04
 - VSCode 1.81.1
