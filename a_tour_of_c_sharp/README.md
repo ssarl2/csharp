@@ -1,7 +1,9 @@
 # Landing C#!
 ## On going
+- [x] [A tour of the C# language](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+- [x] [C# types and members](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types)
 - [x] [C# program building blocks](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks)
-- [ ] [C# major language areas](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features)
+- [-] [C# major language areas](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features)
 ## Testing environment
 - Ubuntu 22.04
 - VSCode 1.81.1
