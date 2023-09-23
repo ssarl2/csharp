@@ -10,6 +10,7 @@
 - VSCode 1.81.1
   - C# extension 2.0.376
 - dotnet-sdk-7.0
+
 ## Install C#
 ### C# SDK
 ```
