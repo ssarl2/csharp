@@ -4,12 +4,13 @@
 - [x] [C# types and members](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types)
 - [x] [C# program building blocks](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks)
 - [x] [C# major language areas](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features)
-- [x] [https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/strategy](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/strategy)
+- [ ] [Annotated C# strategy](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/strategy)
 ## Testing environment
 - Ubuntu 22.04
 - VSCode 1.81.1
   - C# extension 2.0.376
 - dotnet-sdk-7.0
+
 ## Install C#
 ### C# SDK
 ```
