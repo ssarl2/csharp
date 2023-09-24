@@ -4,7 +4,15 @@
 - [x] [C# types and members](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types)
 - [x] [C# program building blocks](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/program-building-blocks)
 - [x] [C# major language areas](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/features)
-- [ ] [Annotated C# strategy](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/strategy)
+- [x] [Annotated C# strategy](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/strategy)
+- [-] [Introduction to C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/)
+  - [x] [Hello world](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world)
+  - [ ] [Numbers in C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/numbers-in-csharp)
+  - [ ] [Branches and loops](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/branches-and-loops)
+  - [ ] [List collection](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/list-collection)
+  - [ ] [Write your first code using C# (Get started with C#, Part 1)](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-1/)
+  - [101 Linq Samples](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/#101-linq-samples)
+- [ ] 
 ## Testing environment
 - Ubuntu 22.04
 - VSCode 1.81.1
