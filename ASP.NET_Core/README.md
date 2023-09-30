@@ -13,6 +13,7 @@ https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=a
     - [x] [Get started with ASP.NET Core MVC](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-7.0&tabs=visual-studio)
     - [x] [Part 2, add a model to a Razor Pages app in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/model?view=aspnetcore-7.0&tabs=visual-studio)
     - [x] [Part 3, scaffolded Razor Pages in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/page?view=aspnetcore-7.0&tabs=visual-studio)
+    - [ ] [Part 4 of tutorial series on Razor Pages](https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/sql?view=aspnetcore-7.0&tabs=visual-studio)
 - [ ] [Get started with MVC](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-7.0&tabs=visual-studio)
 - [ ] [Get started with Blazor](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro)
 - [ ] [Create a web API](https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&tabs=visual-studio)
